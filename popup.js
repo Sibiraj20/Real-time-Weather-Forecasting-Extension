@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiKey = 'b1a4fd2aeaed4f7c9ae111750240507';
+    const apiKey = 'YOUR-API-KEY';
     
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(async (position) => {
