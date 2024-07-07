@@ -7,16 +7,29 @@
 </head>
 <body>
   <div id="weather">
-    <h1>Weather Dashboard</h1>
     <div id="current-weather">
+      <div id="date-time"></div>
       <div id="location"></div>
       <div id="temperature"></div>
       <div id="description"></div>
       <img id="weather-icon" src="" alt="Weather Icon">
     </div>
-    <h2>5-Day Forecast</h2>
     <div id="forecast"></div>
+    <div id="astronomy">
+      <h3>Astronomy Data</h3>
+      <div><strong>Sunrise:</strong> <span id="sunrise"></span></div>
+      <div><strong>Sunset:</strong> <span id="sunset"></span></div>
+      <div><strong>Moonrise:</strong> <span id="moonrise"></span></div>
+      <div><strong>Moonset:</strong> <span id="moonset"></span></div>
+    </div>
   </div>
+
+  <!-- Toggle Switch with Label -->
+  <div class="toggle-container">
+    <label class="toggle-label" for="toggle-switch">Night Mode:</label>
+    <input type="checkbox" id="toggle-switch">
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>
